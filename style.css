@@ -1,3 +1,34 @@
-flexbox-container {
-    display: flex;
+body {
+    background-color: rgb(160, 210, 207);
+}
+
+.header {
+    color: darkseagreen;
+}
+
+.flexbox-container {
+    height: 400px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 138, 104);
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 5px;
+    border: 6px solid rgb(236, 105, 129);
+    background-color: rgb(158, 189, 248);
+}
+
+.flexbox-item-1 {
+    min-height: 300px;
+}
+
+.flexbox-item-2 {
+    min-height: 300px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
 }
